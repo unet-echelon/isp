@@ -1,0 +1,21 @@
+.top_line {
+    #height: 70px;
+    background-color: #67d2db;
+    list-style: none;
+}
+.company_name {
+    font-family: 'Play', sans-serif;
+    margin-top: 9px;
+    margin-left: 10px;
+    
+}
+.numbers {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.contakts {
+    height: 70px;
+    background-color: #332f2f;
+    color: #6ae6e6;
+}
