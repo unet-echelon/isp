@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rivne ISP</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Rivne ISP</title>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-<div class="wrapper">
+  <div class="wrapper">
     <header>
-        <div class="top_line">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                          <a class="navbar-brand" href="#">Rivne ISP</a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                              <li class="nav-item #active">
-                                <a class="nav-link" href="#">Інтернет для дому<span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Інтернет для бізнесу</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Інші послуги</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Підтримка</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                 Користувачу
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <footer>
-        <div class="contakts">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="numbers">
-                        <b>Офіс і технічна підтримка</b><br>
-                        (0362) 42-04-05 (067) 362-09-11, (050) 461-59-75, (093) 745-51-15<br>
-                        <b>SMS та телеграм</b> чат доступні за номером (097) 500 50 57
+      <div class="top_line">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <!-- Brand -->
+              <a class="navbar-brand" href="#"><h3 class="company_name">RIVNE ISP</h3></a>
+
+              <!-- Links -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Інтернет для дому
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Наземний канал</a>
+                    <a class="dropdown-item" href="#">Радіо езернет</a>
+                    <a class="dropdown-item" href="#">ADSL</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Інтернет для бізнесу
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Наземний канал</a>
+                    <a class="dropdown-item" href="#">Профі-інтернет</a>
+                    <a class="dropdown-item" href="#">Радіо езернет</a>
+                    <a class="dropdown-item" href="#">ADSL</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Інші послуги
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Реєстраці домену</a>
+                    <a class="dropdown-item" href="#">Веб-хостинг</a>
+                    <a class="dropdown-item" href="#">Веб-дизайн</a>
+                    <a class="dropdown-item" href="#">Виклик спеціаліста</a>
+                  </div>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Підтримка
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Тест швидкості</a>
+                      <a class="dropdown-item" href="#">Корисні посилання</a>
+                      <a class="dropdown-item" href="#">Акції</a>
+                      <a class="dropdown-item" href="#">Поради користувачу</a>
+                      <a class="dropdown-item" href="#">Оплата послуг</a>
                     </div>
-                </div>
+                  </li>
+                  <li class="nav-item dropdown dropdown-menu-rightt">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Користувачу
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">Статистика</a>
+                      <a class="dropdown-item" href="#">Поштова скриня</a>
+                      <a class="dropdown-item" href="#">Допомога</a>
+                      <a class="dropdown-item" href="#">Питання відповіді (FAQ)</a>
+                      <a class="dropdown-item" href="#">Інструкції по налаштуванню</a>
+                      <a class="dropdown-item" href="#">Контакт через SMS</a>
+                      <a class="dropdown-item" href="#">Публічні DNS-сервери</a>
+                      <a class="dropdown-item" href="#">Вакансія</a>
+                    </div>
+                  </ul>
+                </nav>
+              </div>
             </div>
-        </div>
-    </footer>
-</div>
-</body>
-</html>
+          </div>
+        </header>
+        <footer>
+          <div class="contakts">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="numbers">
+                  <b>Офіс і технічна підтримка</b><br>
+                  (0362) 42-04-05 (067) 362-09-11, (050) 461-59-75, (093) 745-51-15<br>
+                  <b>SMS та телеграм</b> чат доступні за номером (097) 500 50 57
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    </body>
+    </html>

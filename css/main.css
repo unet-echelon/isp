@@ -7,7 +7,7 @@
     font-family: 'Play', sans-serif;
     margin-top: 9px;
     margin-left: 10px;
-    
+
 }
 .numbers {
     text-align: center;
@@ -18,4 +18,10 @@
     height: 70px;
     background-color: #332f2f;
     color: #6ae6e6;
+}
+.navbar {
+  float: none;
+  position: absolute;
+  text-align: right;
+  font-family: 'Play', sans-serif;
 }
